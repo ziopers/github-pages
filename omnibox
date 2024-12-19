@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMNIBOX - La centralina per la tua auto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0078D4;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .product-image {
+            flex: 1;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .product-image img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .product-details {
+            flex: 2;
+            margin: 20px;
+        }
+        .product-details h2 {
+            color: #0078D4;
+        }
+        .product-details p {
+            line-height: 1.6;
+        }
+        .buy-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0078D4;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .buy-button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0078D4;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OMNIBOX</h1>
+        <p>La centralina che rivoluziona la tua automobile</p>
+    </header>
+
+    <div class="container">
+        <div class="product-section">
+            <div class="product-image">
+                <img src="https://via.placeholder.com/500" alt="Immagine di OMNIBOX">
+            </div>
+            <div class="product-details">
+                <h2>Scopri OMNIBOX</h2>
+                <p>
+                    OMNIBOX è una centralina avanzata per automobili che offre prestazioni migliorate, consumi ridotti e una maggiore sicurezza per la tua guida. Semplice da installare e compatibile con la maggior parte dei modelli di auto, OMNIBOX è il futuro della tecnologia per veicoli.
+                </p>
+                <p>
+                    Acquista oggi stesso e porta la tua auto al livello successivo!
+                </p>
+                <a href="#" class="buy-button">Acquista Ora</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 OMNIBOX. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
